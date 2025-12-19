@@ -1,0 +1,73 @@
+.home {
+  position: relative;
+  min-height: 100vh;
+  background: 
+    linear-gradient(90deg, rgba(0,0,0,0.85), rgba(0,0,0,0.2)),
+    url("../assets/image/foto.jpeg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+  padding: 80px;
+  color: white;
+}
+
+.hero-title {
+  font-size: 96px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.hero-title span {
+  font-size: 32px;
+  vertical-align: super;
+}
+
+.hero-role {
+  font-size: 20px;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+
+.hero-desc {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #ddd;
+  margin-bottom: 30px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 16px;
+}
+
+.btn {
+  padding: 12px 26px;
+  border-radius: 999px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn.primary {
+  background: white;
+  color: black;
+}
+
+.btn.primary:hover {
+  transform: translateY(-2px);
+}
+
+.btn.outline {
+  border: 1px solid white;
+  color: rgb(0, 0, 0);
+}
+
+.btn.outline:hover {
+  background: white;
+  color: black;
+}
